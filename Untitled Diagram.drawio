@@ -10,13 +10,12 @@
         <mxCell id="Sc6bf__xJOu8bdqY58xA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-2" target="Sc6bf__xJOu8bdqY58xA-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sc6bf__xJOu8bdqY58xA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-2">
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-2" target="Sc6bf__xJOu8bdqY58xA-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="660" as="targetPoint" />
             <Array as="points">
               <mxPoint x="765" y="270" />
-              <mxPoint x="461" y="270" />
-              <mxPoint x="461" y="660" />
+              <mxPoint x="460" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -56,7 +55,7 @@
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sc6bf__xJOu8bdqY58xA-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;yolov5 推理计算相机框（20ms）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;yolov5 推理计算相机框&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;（20ms）&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;识别人/机动车/非机动车/猫狗等&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="605" y="530" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sc6bf__xJOu8bdqY58xA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-14" target="Sc6bf__xJOu8bdqY58xA-17">
@@ -83,10 +82,10 @@
         <mxCell id="Sc6bf__xJOu8bdqY58xA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-25" target="Sc6bf__xJOu8bdqY58xA-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sc6bf__xJOu8bdqY58xA-25" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;激光雷达点云投影到相机平面（0ms）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-25" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;激光雷达点云投影到相机平面&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;获取2dbox关联语义点云（0ms）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="830" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sc6bf__xJOu8bdqY58xA-27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;根绝&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="950" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
