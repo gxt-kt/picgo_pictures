@@ -64,7 +64,7 @@
         <mxCell id="Sc6bf__xJOu8bdqY58xA-14" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;单目测距拥挤度计算（1ms）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="710" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sc6bf__xJOu8bdqY58xA-17" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;发布拥挤度数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-17" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;发布拥挤度话题数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="820" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sc6bf__xJOu8bdqY58xA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-19" target="Sc6bf__xJOu8bdqY58xA-10">
@@ -79,14 +79,19 @@
         <mxCell id="Sc6bf__xJOu8bdqY58xA-22" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;激光雷达点云降采样+去除地面点云（3&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;ms）（可选可配置）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="710" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sc6bf__xJOu8bdqY58xA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-25" target="Sc6bf__xJOu8bdqY58xA-27">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sc6bf__xJOu8bdqY58xA-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="949.9999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Sc6bf__xJOu8bdqY58xA-25" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;激光雷达点云投影到相机平面&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;获取2dbox关联语义点云（0ms）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="830" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sc6bf__xJOu8bdqY58xA-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-31" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;欧拉聚类得到2dbox对应点云（1ms）&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;去除无关点云&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="950" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-32" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;OBB获取点云3D位姿框（耗时3ms，还在优化）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1060" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
