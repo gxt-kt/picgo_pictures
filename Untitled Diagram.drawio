@@ -93,6 +93,9 @@
         <mxCell id="Sc6bf__xJOu8bdqY58xA-32" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;OBB获取点云3D位姿框（耗时3ms，还在优化）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="1060" width="320" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Sc6bf__xJOu8bdqY58xA-33" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;发布语义3dbox（话题数据类型还需要和感知再对齐）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1168" width="320" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
